@@ -1,0 +1,28 @@
+@use './space.scss';
+@forward './space.scss';
+
+@use './var.scss';
+@forward './var.scss';
+
+
+
+.page {
+	max-width: 375px;
+	margin: auto;
+	background: white;
+	color: black;
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+} 
+
+.header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+h1 {
+	font-size: 24px;
+}
+
